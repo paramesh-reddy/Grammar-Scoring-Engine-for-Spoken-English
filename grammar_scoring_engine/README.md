@@ -141,14 +141,5 @@ jupyter notebook notebooks/grammar_scoring_engine.ipynb
 
 ### 2. Run Individual Modules
 ```bash
-python -c "from grammar_scoring_engine.src.features import extract_text_features; print(extract_text_features('She speaks fluent English.'))"
+python -c "from src.features import extract_text_features; print(extract_text_features('She speaks fluent English.'))"
 ```
-
----
-
-## 🎙️ Interview Defense Key Takeaways
-
-1. **Why Whisper?** Robust multilingual ASR trained on 680k hours, resilient against noise, accent shifts, and microphone clipping.
-2. **Why Continuous Regression over Classification?** Grammar proficiency is inherently ordinal and continuous. Bucketing into discrete classes incurs ordinal distortion.
-3. **Why Combine Text + Audio?** Hesitations, pauses, and pitch variations correlate strongly with cognitive grammatical struggle.
-4. **Why Ensemble Extra Trees + Gradient Boosting?** Extra Trees reduces variance through extreme random thresholding; Gradient Boosting reduces bias through iterative residual fitting.

@@ -1,0 +1,6 @@
+{
+  "name": "Grammar Scoring Engine for Spoken English",
+  "description": "Production-grade ML pipeline and Kaggle benchmark for continuous grammar scoring (0-5) of spoken English audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
